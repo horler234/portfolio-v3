@@ -74,7 +74,7 @@ const HomeDescription = styled.div`
 export const HomeWrapper = () => (
   <HomeDescription>
     <H1 isGreen>Hi, meet</H1>
-    <h1>Shuaib Abdulmuqit</h1>
+    <h1>Abdulmuqit Shuaib</h1>
     <BodyText maxWidth="100%">
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
       nonumyeirmod temporinvidunt ut labore et dolore magna aliquyam erat, sed

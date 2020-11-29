@@ -19,12 +19,11 @@ const ContactTextWrapper = styled.div`
   @media (max-width: 768px) {
     width: 86.4%;
     h1 {
-        font-size: 17px;
+      font-size: 17px;
     }
     p {
-        max-width: 100%;
+      max-width: 100%;
     }
-    /* margin-bottom: 130px; */
   }
 `;
 
@@ -39,7 +38,7 @@ const TitleWrapper = styled(SectionTitle)`
 const NumberWrapper = styled.div`
   margin-top: 50px;
   @media (max-width: 768px) {
-      margin-top: 35px;
+    margin-top: 35px;
   }
 `;
 export const ContactWrapper = () => (
