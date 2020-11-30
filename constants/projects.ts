@@ -19,7 +19,7 @@ export const projectList: ProjectContextType = {
       live: "/",
       source: "https://github.com/horler234/portfolio-v4",
       imgSrc: "/images/portfolio.JPG",
-      shortDescription: "A platform for showcase some of the stuff I do and what I am capable of.",
+      shortDescription: "A platform for showcasing some of the stuff I do and what I am capable of.",
       longDescription: "Built with the lightest and best methods for the best user experience, this is my portfolio web application to showcase my strengths in web development."
     },
     {
