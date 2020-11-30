@@ -47,13 +47,13 @@ export const ContactWrapper = () => (
     <FlexWrapper>
       <ContactTextWrapper>
         <BodyText maxWidth="301px">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-          diamnonumyeirmod temporinvidunt ut labore et dolormagna
+          Do you have comments on any of my projects? Are you interested in
+          working together or you just wanna have a chat? Send me a message at:
         </BodyText>
         <H1>shuaibabdulmuqit@gmail.com</H1>
         <NumberWrapper>
           <BodyText maxWidth="301px">
-            Lorem ipsum dolor sit amet, consetetur
+            You can also call or text me on my mobile number
           </BodyText>
           <H1>+234 9083 09 1266</H1>
         </NumberWrapper>

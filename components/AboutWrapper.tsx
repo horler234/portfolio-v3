@@ -8,8 +8,8 @@ const AboutContainer = styled.div`
   width: 41%;
 
   @media (max-width: 768px) {
-      width: 86.4%;
-      margin-bottom: 130px;
+    width: 86.4%;
+    margin-bottom: 130px;
   }
 `;
 
@@ -17,15 +17,16 @@ export const AboutWrapper = () => (
   <AboutContainer>
     <SectionTitle>About Me</SectionTitle>
     <BodyText>
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumyeirmod temporinvidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. vero eos et accusamet justo duo dolores et ea rebum. Stet
-      clita kasd gubergren, noseatakimatasanctus est Lorem
+      Since beginning my journey
+      as a frontend developer, I've done remote work for
+      agencies, consulted for startups, and collaborated with talented people to
+      create digital products for both business and consumer use. I'm quietly
+      confident, naturally curious, and perpetually working on improving my
+      skills one fast, scalable web app at a time.
       <br />
       <br />
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumyeirmod temporinvidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. vero eos et accusamet justo
+      I have a lot of hobbies, but coding is my favourite. People say I'm funny
+      but I think I'm just fun. I enjoy gaming a lot!
     </BodyText>
     <DisplayAtMedia laptop desktop>
       <Skillset />

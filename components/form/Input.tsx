@@ -70,6 +70,7 @@ export const Input = ({
       placeholder={placeholder}
       onChange={(evt) => console.log(evt)}
       required
+      disabled
     />
   </InputWrapper>
 );

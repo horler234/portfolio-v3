@@ -8,6 +8,9 @@ const FormWrapper = styled.form`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  input, textarea {
+    cursor: not-allowed;
+  }
 `;
 
 const FormContainer = styled.div`
@@ -41,7 +44,7 @@ export const Form = () => (
         type="email"
       />
       <TextArea>
-        <textarea id="message" placeholder="Message" required></textarea>
+        <textarea id="message" placeholder="Message" required disabled></textarea>
       </TextArea>
       <SubmitBtn>
         <input type="submit" value="Send" />

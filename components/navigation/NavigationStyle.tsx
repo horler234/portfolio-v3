@@ -42,7 +42,11 @@ export const NavigationWrapper = styled.div<NavbarProps>`
 `;
 export const NavListItem = styled.li<NavLinkProps>`
   font-size: 21.7px;
-  padding-bottom: 46.5px;
+  margin-bottom: 46.5px;
+  transition: all .6s ease;
+  &:hover {
+    transform: rotate(-10deg);
+  }
   a {
     color: ${(props) =>
       props.isActive
@@ -56,7 +60,7 @@ export const NavListItem = styled.li<NavLinkProps>`
 
   @media ${(props) => props.theme.media.tablet} {
     font-size: 28px;
-    padding-bottom: 60px;
+    margin-bottom: 60px;
     a {
       span {
         margin-right: 60px;

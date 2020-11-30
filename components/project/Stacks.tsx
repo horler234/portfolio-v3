@@ -6,6 +6,10 @@ import {
   ReactIcon,
   SassIcon,
 } from "../icons";
+import { FirebaseIcon } from "../icons/FirebaseIcon";
+import { NextIcon } from "../icons/NextIcon";
+import { ReduxIcon } from "../icons/ReduxIcon";
+import { StyledComponentIcon } from "../icons/StyledComponentIcon";
 
 export const StackWrapper = styled.div`
   display: inline-block;
@@ -30,8 +34,21 @@ export const Stack = ({ lang }: StackProps) => {
 
       case "JS":
         return <JavascriptIcon />;
+
       case "React":
         return <ReactIcon />;
+
+      case "Firebase":
+        return <FirebaseIcon iconHeight="20px" iconWidth="20px" />;
+
+      case "Redux":
+        return <ReduxIcon iconHeight="20px" iconWidth="20px" />;
+
+        case "NextJS":
+          return <NextIcon />
+
+          case "Styled":
+            return <StyledComponentIcon />
 
       default:
         return null;

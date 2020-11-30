@@ -47,6 +47,12 @@ export const ProjectWrapper = styled.div`
   background: #201f1f;
   padding: 40px 0 30px;
   width: 100%;
+  transition: all .6s ease;
+  &:hover {
+    -webkit-box-shadow: 2px 2px 27px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 2px 27px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 27px 0px rgba(0, 0, 0, 0.75);
+  }
 `;
 
 export const ProjectContent = styled.div`
@@ -135,8 +141,13 @@ export const ProjectListFlex = styled.div`
   justify-content: space-between;
   margin-bottom: 15px;
   transition: all 1s ease;
-  &:hover img {
-    transform: scale(1.02) rotate(5deg);
+  &:hover {
+    -webkit-box-shadow: 2px 2px 27px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 2px 27px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 27px 0px rgba(0, 0, 0, 0.75);
+    img {
+      transform: scale(1.02) rotate(5deg);
+    }
   }
 `;
 
@@ -150,7 +161,6 @@ export const ProjectListImageWrapper = styled.div`
   div {
     width: 80%;
     margin: auto;
-
     -webkit-box-shadow: 2px 2px 27px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 2px 2px 27px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 2px 2px 27px 0px rgba(0, 0, 0, 0.75);

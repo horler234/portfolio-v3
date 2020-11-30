@@ -47,9 +47,8 @@ export const ProjectList = () => {
                 </ProjectLinkWrapper>
               </ProjectTopFlex>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumyeirmod temporinvidunt ut labore et dolore magna
-                aliquyam erat, sed diam voluptua. vero eos et accusamet justo
+                {project.longDescription ||
+                  "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumyeirmod temporinvidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. vero eos et accusamet justo"}
               </p>
               {project.stack.map((icon) => (
                 <Stack lang={icon} key={icon} />

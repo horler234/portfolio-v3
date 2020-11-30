@@ -53,8 +53,7 @@ export const ProjectGrid = () => {
             <ProjectDescription>
               <h1>{project.name}</h1>
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam.
+                {project.shortDescription || "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam."}
               </p>
             </ProjectDescription>
             {project.stack.map((icon) => (

@@ -64,10 +64,10 @@ const HomeDescription = styled.div`
     }
   }
 
-  @media ${props => props.theme.media.laptop} {
-      h1 {
-          font-size: 60px;
-      }
+  @media ${(props) => props.theme.media.laptop} {
+    h1 {
+      font-size: 60px;
+    }
   }
 `;
 
@@ -76,10 +76,9 @@ export const HomeWrapper = () => (
     <H1 isGreen>Hi, meet</H1>
     <h1>Abdulmuqit Shuaib</h1>
     <BodyText maxWidth="100%">
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumyeirmod temporinvidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. vero eos et accusamet justo duo dolores et ea rebum. Stet
-      clita kasd gubergren, noseatakimatasanctus est Lorem
+      I'm a self-taught frontend developer from Lagos, Nigeria. I am currently
+      an undergraduate studying Civil & Environmental Engineering in the
+      University of Lagos, Akoka.
     </BodyText>
     <Link href="mailto:shuaibabdulmuqit@gmail.com">
       <a target="_blank">
