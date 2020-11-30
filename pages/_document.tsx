@@ -54,6 +54,21 @@ export default class MyDocument extends Document<any> {
             href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap"
             rel="stylesheet"
           ></link>
+          <link
+            rel="shortcut icon"
+            href="/images/icon.png"
+            type="image/x-icon"
+          />
+          <meta
+            property="og:description"
+            content="Frontend Developer"
+          ></meta>
+          <meta property="og:image" content="/public/images/code.png"></meta>
+          <meta
+            property="og:url"
+            content="https://codelord.vercel.app"
+          ></meta>
+          <meta name="theme-color" content="#0F0D0D"/>
           {this.props.styleTags}
         </Head>
         <body>
