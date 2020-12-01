@@ -7,7 +7,6 @@ import styled from "styled-components";
  */
 
 export const Hamburger = styled.button`
-  /* display: block; */
   position: absolute;
   top: 30px;
   right: 10%;
@@ -33,7 +32,6 @@ export const Hamburger = styled.button`
     border-radius: 1px;
     transition: all 0.3s linear;
     position: relative;
-    /* transform-origin: 1px; */
   }
 
   div:first-child {

@@ -48,7 +48,7 @@ export const ContactWrapper = () => (
       <ContactTextWrapper>
         <BodyText maxWidth="301px">
           Do you have comments on any of my projects? Are you interested in
-          working together or you just wanna have a chat? Send me a message at:
+          working together? Send me a message at:
         </BodyText>
         <H1>shuaibabdulmuqit@gmail.com</H1>
         <NumberWrapper>

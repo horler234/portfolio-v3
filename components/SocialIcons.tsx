@@ -57,13 +57,13 @@ export const SocialIcons = ({notCentered}: SocialProps) => (
           </a>
         </Link>
       </li>
-      <li>
+      {/* <li>
         <Link href="https://github.com/horler234">
           <a target="_blank">
             <LinkedinIcon iconWidth="14px" iconHeight="14px" />
           </a>
         </Link>
-      </li>
+      </li> */}
       <li>
         <Link href="https://twitter.com/shuaibabdmuqit">
           <a target="_blank">

@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { ShowNavbar } from "../keyframes/ShowNavbar";
 
 export type NavLinkProps = {
   isActive?: boolean;
@@ -8,10 +7,6 @@ export type NavLinkProps = {
 type NavbarProps = {
   isOpen: boolean;
 };
-
-// export const NavLayout = styled.div`
-
-// `;
 
 export const NavigationWrapper = styled.div<NavbarProps>`
   position: fixed;
@@ -22,22 +17,11 @@ export const NavigationWrapper = styled.div<NavbarProps>`
   width: ${(props) => (props.isOpen ? "100vw" : "0")};
   z-index: 5;
   overflow: hidden;
-  animation: ${(props) => (props.isOpen ? ShowNavbar : ShowNavbar)}2s ease;
   border-radius: ${(props) => (props.isOpen ? "0" : "500px")};
   transition: all .6s ease;
   ul {
     list-style: none;
     padding: 0;
-  }
-  @media ${(props) => props.theme.media.mobileL} {
-    /* width: 313px; */
-  }
-
-  @media ${(props) => props.theme.media.tablet} {
-    /* width: 456px; */
-    ul {
-      /* padding-left: 100px; */
-    }
   }
 `;
 export const NavListItem = styled.li<NavLinkProps>`

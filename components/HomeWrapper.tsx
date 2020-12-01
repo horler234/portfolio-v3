@@ -76,9 +76,9 @@ export const HomeWrapper = () => (
     <H1 isGreen>Hi, meet</H1>
     <h1>Abdulmuqit Shuaib</h1>
     <BodyText maxWidth="100%">
-      I'm a self-taught frontend developer from Lagos, Nigeria. I am currently
-      an undergraduate studying Civil & Environmental Engineering in the
-      University of Lagos, Akoka.
+      Abdulmuqit is a self-taught front-end developer from Lagos, Nigeria.
+      Currently, he is an undergraduate student at the University of Lagos,
+      Akoka where he is studying Civil & Environmental Engineering.
     </BodyText>
     <Link href="mailto:shuaibabdulmuqit@gmail.com">
       <a target="_blank">

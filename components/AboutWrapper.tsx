@@ -17,15 +17,18 @@ export const AboutWrapper = () => (
   <AboutContainer>
     <SectionTitle>About Me</SectionTitle>
     <BodyText>
-      Since beginning my journey as a frontend developer, I've done remote work
-      for agencies, consulted for startups, and collaborated with talented
-      people to create digital products for both business and consumer use. I'm
-      quietly confident, naturally curious, and perpetually working on improving
-      my skills one fast, scalable web app at a time.
+      Since beginning my journey as a frontend developer, I have been involved
+      in projects for agencies and startups; and collaborated with other
+      talented individuals to create digital products for aimed at meeting the
+      needs of businesses and consumers.
       <br />
       <br />
-      People say I'm funny but I think I'm just fun. I have a lot of hobbies but
-      coding is my favorite. I enjoy gaming a lot too!
+      I would describe myself as confident and naturally curious. I am
+      constantly working on improving my skill set - one fast, scalable web app
+      at a time.
+      <br />
+      <br />I have a lot of hobbies but coding is my favourite. I enjoy gaming a
+      lot too!
     </BodyText>
     <DisplayAtMedia laptop desktop>
       <Skillset />
