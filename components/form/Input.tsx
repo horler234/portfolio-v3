@@ -67,10 +67,10 @@ export const Input = ({
     <input
       type={type}
       id={id}
+      name={id}
       placeholder={placeholder}
       onChange={(evt) => console.log(evt)}
       required
-      disabled
     />
   </InputWrapper>
 );
