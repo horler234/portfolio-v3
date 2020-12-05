@@ -14,7 +14,7 @@ export default function AboutPage() {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Codelord | Portfolio</title>
+        <title>Codelord | About</title>
       </Head>
       <Logo isShort/>
       <Navigation />
