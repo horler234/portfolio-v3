@@ -7,40 +7,40 @@ const SkillSetWrapper = styled.div`
   width: 80%;
   a {
     text-decoration: none;
-  button {
-    color: ${(props) => props.theme.colors.primary.black};
-    margin-top: 10px;
-    background: ${(props) => props.theme.colors.primary.green};
-    transition: background 0.6s ease;
-    padding: 13px 61px;
-    font-weight: 600;
-    font-size: 18px;
-    border: transparent;
-    line-height: 21.13px;
-    cursor: pointer;
-    font-family: inherit;
-    border-radius: 3px;
-    span {
-      margin-right: 11px;
-    }
-    &:focus {
-      outline: none;
-    }
-    &:hover {
-      background-color: ${(props) => props.theme.colors.primary.white};
-    }
-  }
-
-  @media (max-width: 768px) {
     button {
-      padding: 7px 32px;
-      font-size: 10px;
-      span svg {
-        width: 7.53px;
-        height: 7.05px;
+      color: ${(props) => props.theme.colors.primary.black};
+      margin-top: 10px;
+      background: ${(props) => props.theme.colors.primary.green};
+      transition: background 0.6s ease;
+      padding: 13px 61px;
+      font-weight: 600;
+      font-size: 18px;
+      border: transparent;
+      line-height: 21.13px;
+      cursor: pointer;
+      font-family: inherit;
+      border-radius: 3px;
+      span {
+        margin-right: 11px;
+      }
+      &:focus {
+        outline: none;
+      }
+      &:hover {
+        background-color: ${(props) => props.theme.colors.primary.white};
       }
     }
-  }
+
+    @media (max-width: 768px) {
+      button {
+        padding: 7px 32px;
+        font-size: 10px;
+        span svg {
+          width: 7.53px;
+          height: 7.05px;
+        }
+      }
+    }
   }
 
   @media (max-width: 768px) {
@@ -104,7 +104,10 @@ export const Skillset = () => {
     "NextJS",
     "Styled Components",
     "Typescript",
-    "GraphQL"
+    "GraphQL",
+    "NodeJS",
+    "Express",
+    "MongoDB",
   ];
   return (
     <SkillSetWrapper>
