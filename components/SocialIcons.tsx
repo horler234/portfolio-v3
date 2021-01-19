@@ -45,28 +45,28 @@ export const SocialIcons = ({notCentered}: SocialProps) => (
     <ul>
       <li>
         <Link href="https://github.com/horler234">
-          <a target="_blank">
+          <a target="_blank" rel="noopener noreferrer">
             <GithubIcon iconWidth="14px" iconHeight="14px" />
           </a>
         </Link>
       </li>
       <li>
         <Link href="https://www.instagram.com/codelord_abdulmuqit/">
-          <a target="_blank">
+          <a target="_blank" rel="noopener noreferrer">
             <InstagramIcon iconWidth="15.82px" iconHeight="15.82px" />
           </a>
         </Link>
       </li>
       <li>
         <Link href="https://linkedin.com/in/abdulmuqit-shuaib-98a9031b5">
-          <a target="_blank">
+          <a target="_blank" rel="noopener noreferrer">
             <LinkedinIcon iconWidth="14px" iconHeight="14px" />
           </a>
         </Link>
       </li>
       <li>
         <Link href="https://twitter.com/shuaibabdmuqit">
-          <a target="_blank">
+          <a target="_blank" rel="noopener noreferrer">
             <TwitterIcon iconWidth="14px" iconHeight="14px" />
           </a>
         </Link>
