@@ -117,7 +117,7 @@ export const Skillset = () => {
           <li key={skill}>{skill}</li>
         ))}
       </SkillSetList>
-      <Link href="https://drive.google.com/file/d/1w1u2gsJBCnUafldQsue1s1Y5Zd1f0K-4/view?usp=sharing">
+      <Link href="https://drive.google.com/file/d/1ED22ZNODmGxt_bk5vGaJ5eKY767ZPKRW/view?usp=sharing">
         <a target="_blank">
           <button>
             <span>

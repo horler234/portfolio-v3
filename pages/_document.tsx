@@ -59,16 +59,24 @@ export default class MyDocument extends Document<any> {
             href="/images/icon.png"
             type="image/x-icon"
           />
+
+          <meta property="og:url" content="https://codelord.vercel.app" />
+
           <meta
-            property="og:description"
-            content="Frontend Developer"
-          ></meta>
-          <meta property="og:image" content="/public/images/code.png"></meta>
+            name="og:description"
+            content="Abdulmuqit is a self-taught front-end developer from Lagos, Nigeria. Currently, he is an undergraduate student at the University of Lagos, Akoka where he is studying Civil & Environmental Engineering."
+          />
+          <meta name="og:image" content="/images/me.JPG" />
+          <meta property="og:site_name" content="Abdulmuqit Shuaib" />
+          <meta name="theme-color" content="#0F0D0D" />
+          {/* twitter card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Abdulmuqit Shuaib" />
           <meta
-            property="og:url"
-            content="https://codelord.vercel.app"
-          ></meta>
-          <meta name="theme-color" content="#0F0D0D"/>
+            name="twitter:description"
+            content="Abdulmuqit is a self-taught front-end developer from Lagos, Nigeria. Currently, he is an undergraduate student at the University of Lagos, Akoka where he is studying Civil & Environmental Engineering."
+          />
+          <meta name="twitter:image" content="/images/me.JPG" />
           {this.props.styleTags}
         </Head>
         <body>
