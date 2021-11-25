@@ -47,7 +47,7 @@ export const ProjectWrapper = styled.div`
   background: #201f1f;
   padding: 40px 0 30px;
   width: 100%;
-  transition: all .6s ease;
+  transition: all 0.6s ease;
   &:hover {
     -webkit-box-shadow: 2px 2px 27px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 2px 2px 27px 0px rgba(0, 0, 0, 0.75);

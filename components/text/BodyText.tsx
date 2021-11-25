@@ -23,12 +23,12 @@ import { TextMixin } from "./TextMixin";
  * @param lineHeight custom line-height
  */
 export const BodyText = styled.p<TextProps>`
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 400;
   text-align: justify;
   line-height: 11.74px;
 
-  @media ${props => props.theme.media.tablet} {
+  @media ${(props) => props.theme.media.tablet} {
     font-size: 16px;
     line-height: 18.78px;
   }

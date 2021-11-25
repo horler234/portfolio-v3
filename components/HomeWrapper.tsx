@@ -16,7 +16,7 @@ const HomeDescription = styled.div`
       transition: background 0.6s ease;
       padding: 7px 32.87px;
       font-weight: 600;
-      font-size: 10px;
+      font-size: 12px;
       line-height: 11.74px;
       cursor: pointer;
       font-family: inherit;
@@ -37,7 +37,7 @@ const HomeDescription = styled.div`
   span {
     font-weight: 500;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     width: 86.4%;
     order: 1;
     margin-bottom: 130px;

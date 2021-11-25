@@ -2,6 +2,11 @@ import App from "next/app";
 import { createGlobalStyle, ThemeProvider } from "styled-components";
 import { AppTheme } from "../theme/AppTheme";
 import { NextComponentType, NextPageContext } from "next";
+import { Logo } from "../components/Logo";
+import { Navigation } from "../components/navigation";
+import { useRouter } from "next/router";
+import { Number } from "../components/Number";
+import { AnimatePresence } from "framer-motion";
 
 /**
  * Custom Next.js App
@@ -32,7 +37,7 @@ const GlobalStyle = createGlobalStyle<ThemeWrapper>`
   }
 
   body {
-    background: ${props => props.theme.colors.primary.black};
+    background: ${(props) => props.theme.colors.primary.black};
     color: #FFFFFF;
   }
 
@@ -47,11 +52,23 @@ interface MyAppProps extends App {
 }
 
 const MyApp = ({ Component, pageProps }: MyAppProps) => {
+  const router = useRouter();
   return (
-      <ThemeProvider theme={AppTheme}>
-        <GlobalStyle />
+    <ThemeProvider theme={AppTheme}>
+      <GlobalStyle />
+      <Logo
+        isShort={
+          router.pathname === "/contact" ||
+          router.pathname === "/about" ||
+          router.pathname === "/projects"
+        }
+      />
+      <Navigation />
+      <AnimatePresence>
         <Component {...pageProps} />
-      </ThemeProvider>
+      </AnimatePresence>
+      <Number />
+    </ThemeProvider>
   );
 };
 

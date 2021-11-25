@@ -34,7 +34,7 @@ const SkillSetWrapper = styled.div`
     @media (max-width: 768px) {
       button {
         padding: 7px 32px;
-        font-size: 10px;
+        font-size: 12px;
         span svg {
           width: 7.53px;
           height: 7.05px;

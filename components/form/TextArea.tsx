@@ -24,7 +24,7 @@ export const TextArea = styled.div`
     margin-top: 16px;
     margin-bottom: 27px;
     textarea {
-      font-size: 10px;
+      font-size: 12px;
       padding: 5px;
       height: 150px;
     }

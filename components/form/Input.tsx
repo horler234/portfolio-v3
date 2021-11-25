@@ -46,7 +46,7 @@ export const InputWrapper = styled.div<FormProps>`
 
   @media (max-width: 768px) {
     input {
-      font-size: 10px;
+      font-size: 12px;
       padding-bottom: 5px;
     }
   }

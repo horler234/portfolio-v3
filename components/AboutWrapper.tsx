@@ -7,7 +7,7 @@ import { BodyText } from "./text/BodyText";
 const AboutContainer = styled.div`
   width: 41%;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1000px) {
     width: 86.4%;
     margin-bottom: 130px;
   }

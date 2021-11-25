@@ -3,18 +3,16 @@ import { ContactWrapper } from "../components/ContactWrapper";
 import { Logo } from "../components/Logo";
 import { Navigation } from "../components/navigation";
 import { Number } from "../components/Number";
+import { PageTransition } from "../components/PageTransition";
 
 export default function AboutPage() {
-    return (
-      <>
-        <Head>
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <title>Codelord | Contact</title>
-        </Head>
-        <Logo isShort/>
-        <Navigation />
-        <ContactWrapper />
-        <Number />
-      </>
-    );
-  }
+  return (
+    <PageTransition>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Codelord | Contact</title>
+      </Head>
+      <ContactWrapper />
+    </PageTransition>
+  );
+}

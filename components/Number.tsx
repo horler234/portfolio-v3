@@ -11,6 +11,7 @@ export const NumberList = styled.ul`
   margin-bottom: 42px;
   display: flex;
   align-items: flex-end;
+  height: 80px;
   li {
     margin-right: 34px;
   }
@@ -18,6 +19,7 @@ export const NumberList = styled.ul`
     margin-right: 0;
   }
   @media ${(props) => props.theme.media.tablet} {
+    height: 117px;
     li {
       margin-right: 50px;
     }
@@ -28,6 +30,7 @@ const NumberListItem = styled.li<NavLinkProps>`
   ${(props) => props.isActive && `transform: translateY(20px);`}
   font-size: ${(props) => (props.isActive ? "68px" : "16px")};
   font-weight: ${(props) => (props.isActive ? "800" : "700")};
+  transition: all 0.6s ease;
   a {
     text-decoration: none;
     color: #ffffff;
@@ -43,22 +46,22 @@ export const Number = () => {
   return (
     <NumberList>
       <NumberListItem isActive={checkActive("/")}>
-        <Link href="/">
+        <Link href="/" scroll={false}>
           <a>01</a>
         </Link>
       </NumberListItem>
       <NumberListItem isActive={checkActive("/about")}>
-        <Link href="/about">
+        <Link href="/about" scroll={false}>
           <a>02</a>
         </Link>
       </NumberListItem>
       <NumberListItem isActive={checkActive("/projects")}>
-        <Link href="/projects">
+        <Link href="/projects" scroll={false}>
           <a>03</a>
         </Link>
       </NumberListItem>
       <NumberListItem isActive={checkActive("/contact")}>
-        <Link href="/contact">
+        <Link href="/contact" scroll={false}>
           <a>04</a>
         </Link>
       </NumberListItem>

@@ -61,6 +61,10 @@ export default class MyDocument extends Document<any> {
           />
 
           <meta property="og:url" content="https://codelord.vercel.app" />
+          <meta
+            name="description"
+            content="Abdulmuqit is a self-taught front-end developer from Lagos, Nigeria. Currently, he is an undergraduate student at the University of Lagos, Akoka where he is studying Civil & Environmental Engineering."
+          />
 
           <meta
             name="og:description"

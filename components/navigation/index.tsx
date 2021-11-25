@@ -19,14 +19,14 @@ export const Navigation = () => {
   const checkActive = (link: string) => router.pathname === link;
   return (
     <div>
-      <Hamburger onClick={toggleNavbar}>
+      <Hamburger name="Open Navigation" onClick={toggleNavbar}>
         <div></div>
         <div></div>
         <div></div>
       </Hamburger>
       <NavigationWrapper isOpen={isShowing}>
         <CloseWrapper>
-          <Close onClick={toggleNavbar}>
+          <Close name="Close Navigation" onClick={toggleNavbar}>
             <div></div>
             <div></div>
           </Close>
@@ -35,28 +35,28 @@ export const Navigation = () => {
           <ul>
             <NavListItem isActive={checkActive("/")}>
               <Link href="/">
-                <a>
+                <a onClick={() => setShowing(false)}>
                   <span>01</span> Home
                 </a>
               </Link>
             </NavListItem>
             <NavListItem isActive={checkActive("/about")}>
               <Link href="/about">
-                <a>
+                <a onClick={() => setShowing(false)}>
                   <span>02</span> About Me
                 </a>
               </Link>
             </NavListItem>
             <NavListItem isActive={checkActive("/projects")}>
               <Link href="/projects">
-                <a>
+                <a onClick={() => setShowing(false)}>
                   <span>03</span> Projects
                 </a>
               </Link>
             </NavListItem>
             <NavListItem isActive={checkActive("/contact")}>
               <Link href="/contact">
-                <a>
+                <a onClick={() => setShowing(false)}>
                   <span>04</span> Contact Me
                 </a>
               </Link>
