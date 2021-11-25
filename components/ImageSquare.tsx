@@ -37,11 +37,10 @@ export const ImageSquare = styled.div`
   }
 
   @media (min-width: 414px) {
-    height: 400px;
+    height: 280px;
   }
   @media (min-width: 540px) {
     height: 404px;
-    bottom: 0;
   }
   @media (min-width: 600px) {
     height: 420px;
