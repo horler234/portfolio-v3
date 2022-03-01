@@ -105,6 +105,8 @@ export const Skillset = () => {
     "Styled Components",
     "Typescript",
     "GraphQL",
+    "React Native",
+    "Flutter",
     "NodeJS",
     "Express",
     "MongoDB",
@@ -117,7 +119,7 @@ export const Skillset = () => {
           <li key={skill}>{skill}</li>
         ))}
       </SkillSetList>
-      <Link href="https://drive.google.com/file/d/1ED22ZNODmGxt_bk5vGaJ5eKY767ZPKRW/view?usp=sharing">
+      <Link href="https://drive.google.com/file/d/1MDhEiaFhV6GAhmfpoHC6NVOM7M3BmD_V/view?usp=sharing">
         <a target="_blank">
           <button>
             <span>
