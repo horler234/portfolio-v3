@@ -171,7 +171,7 @@ export const ProjectListImageWrapper = styled.div`
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1200px) {
     width: 100%;
     padding: 20px 0;
     div {
@@ -185,7 +185,7 @@ export const ProjectListDescriptionWrapper = styled.div`
   background: #201f1f;
   display: flex;
   align-items: center;
-  @media (max-width: 768px) {
+  @media (max-width: 1200px) {
     width: 100%;
     padding: 20px 0;
   }

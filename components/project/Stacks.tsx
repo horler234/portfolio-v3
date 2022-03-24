@@ -3,6 +3,7 @@ import {
   Css3Icon,
   Html5Icon,
   JavascriptIcon,
+  NodeIcon,
   ReactIcon,
   SassIcon,
 } from "../icons";
@@ -44,11 +45,14 @@ export const Stack = ({ lang }: StackProps) => {
       case "Redux":
         return <ReduxIcon iconHeight="20px" iconWidth="20px" />;
 
-        case "NextJS":
-          return <NextIcon />
+      case "NextJS":
+        return <NextIcon />;
 
-          case "Styled":
-            return <StyledComponentIcon />
+      case "Styled":
+        return <StyledComponentIcon />;
+
+      case "Node":
+        return <NodeIcon />;
 
       default:
         return null;

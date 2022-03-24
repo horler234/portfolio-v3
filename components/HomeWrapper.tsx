@@ -81,7 +81,7 @@ export const HomeWrapper = () => (
       Akoka where he is studying Civil & Environmental Engineering.
     </BodyText>
     <Link href="mailto:shuaibabdulmuqit@gmail.com">
-      <a target="_blank">
+      <a target="_blank" rel="noopener noreferrer">
         <button>Get In Touch</button>
       </a>
     </Link>

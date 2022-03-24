@@ -5,6 +5,7 @@ export const FlexWrapper = styled.div`
   justify-content: space-between;
   flex-wrap: wrap;
   width: 86%;
+  max-width: 1250px;
   align-items: center;
   margin: auto;
   div {

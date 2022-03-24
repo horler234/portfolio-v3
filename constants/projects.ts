@@ -14,13 +14,25 @@ export interface ProjectContextType {
 export const projectList: ProjectContextType = {
   projects: [
     {
+      name: "Code.weather",
+      stack: ["NextJS", "React", "Styled", "Node"],
+      live: "https://codeweather.vercel.app",
+      source: "https://github.com/horler234/codeweather",
+      imgSrc: "/images/codeweather.png",
+      shortDescription: "Weather application that records user search history.",
+      longDescription:
+        "Code weather is a full stack weather application that gets the weather information of a location based on user search. It also has an authentication flow and stores user search history in a MongoDB database.",
+    },
+    {
       name: "Portfolio",
       stack: ["NextJS", "React", "Styled"],
       live: "/",
       source: "https://github.com/horler234/portfolio-v4",
       imgSrc: "/images/portfolio.JPG",
-      shortDescription: "A platform for showcasing some of the stuff I do and what I am capable of.",
-      longDescription: "Built with the lightest and best methods for the best user experience, this is my portfolio web application to showcase my strengths in web development."
+      shortDescription:
+        "A platform for showcasing some of the stuff I do and what I am capable of.",
+      longDescription:
+        "Built with the lightest and best methods for the best user experience, this is my portfolio web application to showcase my strengths in web development.",
     },
     {
       name: "MarioPlan",
@@ -55,8 +67,7 @@ export const projectList: ProjectContextType = {
     {
       name: "Country Info",
       stack: ["HTML5", "CSS3", "SASS", "JS"],
-      live:
-        "https://horler234.github.io/Day-Twenty-Eight/day%20twenty-eight/index.html/",
+      live: "https://horler234.github.io/Day-Twenty-Eight/day%20twenty-eight/index.html/",
       source: "https://github.com/horler234/Day-Twenty-Eight",
       imgSrc: "/images/countries.JPG",
       shortDescription:
@@ -77,8 +88,7 @@ export const projectList: ProjectContextType = {
     {
       name: "Anime Quiz",
       stack: ["HTML5", "CSS3", "SASS", "JS"],
-      live:
-        "https://horler234.github.io/Day-Twenty-Six/day%20twenty-six/index.html",
+      live: "https://horler234.github.io/Day-Twenty-Six/day%20twenty-six/index.html",
       source: "https://github.com/horler234/Day-Twenty-Six",
       imgSrc: "/images/anime.JPG",
       longDescription:
@@ -104,7 +114,8 @@ export const projectList: ProjectContextType = {
       imgSrc: "/images/epl.JPG",
       shortDescription:
         "Some little details about the teams in EPL18/19 season.",
-      longDescription: "To practice my API consumption skills, I developed a single page app for football fans like me. It basically fetches for details about teams that played in EPL18/19 season.",
+      longDescription:
+        "To practice my API consumption skills, I developed a single page app for football fans like me. It basically fetches for details about teams that played in EPL18/19 season.",
     },
   ],
 };

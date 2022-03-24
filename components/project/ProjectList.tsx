@@ -29,7 +29,7 @@ export const ProjectList = () => {
                 <h1>{project.name}</h1>
                 <ProjectLinkWrapper>
                   <Link href={project.source}>
-                    <a>
+                    <a target="_blank" rel="noopener noreferrer">
                       <span>
                         <GithubIcon iconHeight="17.5px" iconWidth="17.5px" />
                       </span>
@@ -37,7 +37,7 @@ export const ProjectList = () => {
                     </a>
                   </Link>
                   <Link href={project.live}>
-                    <a>
+                    <a target="_blank" rel="noopener noreferrer">
                       <span>
                         <LiveIcon />
                       </span>

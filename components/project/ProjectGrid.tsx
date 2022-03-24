@@ -1,9 +1,4 @@
-import {
-  GithubIcon,
-  LeftTagIcon,
-  LiveIcon,
-  RightTagIcon,
-} from "../icons";
+import { GithubIcon, LeftTagIcon, LiveIcon, RightTagIcon } from "../icons";
 import Link from "next/link";
 import { Stack } from "./Stacks";
 import { useContext } from "react";
@@ -33,7 +28,7 @@ export const ProjectGrid = () => {
 
               <ProjectLinkWrapper>
                 <Link href={project.source}>
-                  <a target="_blank">
+                  <a target="_blank" rel="noopener noreferrer">
                     <span>
                       <GithubIcon iconHeight="17.5px" iconWidth="17.5px" />
                     </span>
@@ -41,7 +36,7 @@ export const ProjectGrid = () => {
                   </a>
                 </Link>
                 <Link href={project.live}>
-                  <a target="_blank">
+                  <a target="_blank" rel="noopener noreferrer">
                     <span>
                       <LiveIcon />
                     </span>
@@ -53,7 +48,8 @@ export const ProjectGrid = () => {
             <ProjectDescription>
               <h1>{project.name}</h1>
               <p>
-                {project.shortDescription || "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam."}
+                {project.shortDescription ||
+                  "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam."}
               </p>
             </ProjectDescription>
             {project.stack.map((icon) => (

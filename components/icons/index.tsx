@@ -12,6 +12,7 @@ import { InstagramIcon } from "./InstagramIcon";
 import { TwitterIcon } from "./TwitterIcon";
 import { LinkedinIcon } from "./LinkedinIcon";
 import { LogoIcon } from "./LogoIcon";
+import { NodeIcon } from "./NodeIcon";
 
 export {
   GithubIcon,
@@ -27,5 +28,6 @@ export {
   InstagramIcon,
   TwitterIcon,
   LinkedinIcon,
-  LogoIcon
+  LogoIcon,
+  NodeIcon,
 };
