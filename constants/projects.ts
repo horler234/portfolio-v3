@@ -65,6 +65,16 @@ export const projectList: ProjectContextType = {
         "This project is to test my design implementation. The UI was designed by my friend Alaba (twitter: @Alaba_art). It also has some cool hover animations, a custom preloader and light and dark theme.",
     },
     {
+      name: "ULES Website",
+      stack: ["HTML5", "CSS3", "SASS", "JS"],
+      live: "https://ules.netlify.app/",
+      source: "https://github.com/horler234/ules-website",
+      imgSrc: "/images/ules.png",
+      shortDescription: "Website for Unilag Engineering Society.",
+      longDescription:
+        "This is a website implemented for the University of Lagos Engineering Society (ULES) in 2020. It displays everything about ULES and it also has a news feature",
+    },
+    {
       name: "Country Info",
       stack: ["HTML5", "CSS3", "SASS", "JS"],
       live: "https://horler234.github.io/Day-Twenty-Eight/day%20twenty-eight/index.html/",
