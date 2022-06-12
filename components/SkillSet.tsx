@@ -110,6 +110,7 @@ export const Skillset = () => {
     "NodeJS",
     "Express",
     "MongoDB",
+    "Solidity",
   ];
   return (
     <SkillSetWrapper>
