@@ -76,9 +76,9 @@ export const HomeWrapper = () => (
     <H1 isGreen>Hi, meet</H1>
     <h1>Abdulmuqit Shuaib</h1>
     <BodyText maxWidth="100%">
-      Abdulmuqit is a self-taught front-end developer from Lagos, Nigeria.
-      Currently, he is an undergraduate student at the University of Lagos,
-      Akoka where he is studying Civil & Environmental Engineering.
+      Abdulmuqit is a self-taught front-end developer from Lagos, Nigeria. He
+      describes himself as a passionate developer who loves coding, open source,
+      and the web platform
     </BodyText>
     <Link href="mailto:shuaibabdulmuqit@gmail.com">
       <a target="_blank" rel="noopener noreferrer">
