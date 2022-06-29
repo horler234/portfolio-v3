@@ -120,7 +120,7 @@ export const Skillset = () => {
           <li key={skill}>{skill}</li>
         ))}
       </SkillSetList>
-      <Link href="https://drive.google.com/file/d/1MDhEiaFhV6GAhmfpoHC6NVOM7M3BmD_V/view?usp=sharing">
+      <Link href="https://drive.google.com/file/d/12OI7GlwiIAJkMcvJAGEfl9ICZ1EJ2zqm/view?usp=sharing">
         <a target="_blank">
           <button>
             <span>
